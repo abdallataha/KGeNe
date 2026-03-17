@@ -1,0 +1,16 @@
+---
+title: "KGeNe"
+author: "Abdalla Mohamed"
+date: "2026-03-17"
+output: html_document
+---
+
+```{python setup, include=FALSE}
+import pandas as pd
+df = pd.read_csv("Raw_data/anonymized_clinical.csv")
+
+```
+```{python}
+df.info()
+df.describe()
+```
